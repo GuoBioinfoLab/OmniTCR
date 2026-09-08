@@ -1,0 +1,15 @@
+name: omnitcr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.11
+  - pip
+  - pip:
+      # CUDA 12.1 build used in the manuscript environment.
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - torch==2.5.1+cu121
+      - huggingface-hub==1.28.0
+      - numpy==1.26.4
+      - pandas==2.3.2
+      - safetensors==0.6.2
+      - transformers==4.54.1

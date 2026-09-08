@@ -1,0 +1,6 @@
+recursive-include src/omnitcr/resources *.csv
+recursive-include examples *.py *.csv
+recursive-include docs *.md
+include CHANGELOG.md
+include environment.yaml
+include environment-full.yaml
